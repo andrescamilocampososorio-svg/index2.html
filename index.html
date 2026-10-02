@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!---->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mundo Gamer</title>
+</head>
+<!-- se crean los enlaces internos-->
+<body>
+    <header>
+        <h1>Los Videojuegos</h1>
+        <h2>Indice:</h2>
+        <nav>
+            <ul>
+                <li class="nave"><a href="#introduccion">Introducción <i class="fa-solid fa-house nav-ico"></i></a></li>
+                <li class="nave"><a href="#generos">Géneros <i class="fa-solid fa-list nav-ico"></i></a></li>
+                <li class="nave"><a href="#favoritos">Favoritos <i class="fa-solid fa-star nav-ico"></i></a></li>
+                <li class="nave"><a href="#goty">Actual juego del año<i class="fa-solid fa-trophy nav-ico"></i></a> </li>
+             </ul>
+        </nav>
+    </header>
+    <!-- se asocia el enlace-->
+    <main>
+        <section id="introduccion">
+            <h2>¿Qué son?</h2>
+            <p>Un videojuego es un programa informático interactivo que se ejecuta en un dispositivo electrónico para que uno o más jugadores participen y cumplan objetivos específicos. A diferencia de una película o un libro, el usuario no solo observa, sino que toma decisiones activas que cambian lo que pasa en la pantalla</p>
+            <img src="fotos/videojuegos.png" width="450" alt="Collage con personajes de distintos videojuegos">
+        </section>
+
+        <hr>
+
+        <section id="generos">
+            <h2>Los principales generos son: </h2>
+
+            <h3>Acción/Aventura</h3>
+            <p>juegos donde el jugador controla un personaje a través de desafíos físicos, combates y exploración, combinando reflejos rápidos con resolución de puzzles o avance narrativo.
+            Ejemplos: The Legend of Zelda, Grand Theft Auto</p>
+            <img src="fotos/Accion.png" width="300" alt="Ciudad perteneciente a un videojuego de Aventura">
+            <br>
+
+            <h3>RPG (Rol)</h3>
+            <p>Juegos donde el jugador desarrolla y personaliza un personaje que gana experiencia, sube de nivel y toma decisiones que influyen en la historia y el mundo del juego.
+            Ejemplos: The Witcher, Final Fantasy</p>
+            <img src="fotos/6902ea2057b3f.png" width="300" alt="Collage con personajes de distintos videojuegos">
+            <br>
+
+            <h3>Deportes/Simulación</h3>
+            <p>Juegos que recrean actividades deportivas o situaciones de la vida real de forma realista, buscando imitar las reglas y mecánicas del mundo físico.
+            Ejemplos: FIFA/EA Sports FC, The Sims</p>
+            <img src="fotos/deportes.png" width="300" alt="Partido de fútbol en videojuego FIFA">
+            <br>
+        </section>
+
+        <hr>
+
+        <section id="favoritos">
+            <h2>Selección de videojuegos destacados</h2>
+            <ul>
+                <li>
+                    <h3>Days Gone</h3>
+                    <p>Mundo abierto post-apocalíptico con zombies, buena historia sobre lealtad y supervivencia, y un sistema de moto muy satisfactorio para explorar.</p>
+                    <img class="days" src="fotos/days.png" width="300" alt="Personaje principal de Days Gone rodeado de zombies">
+                </li>
+                <li>
+                    <h3>Crash Team Racing (CTR)</h3>
+                    <p>Kart racing clásico, divertido, con curva de dificultad desafiante y nostalgia pura para quienes crecieron con PlayStation.</p>
+                    <img class="ctr" src="fotos/ctr.png" width="300" alt="Portada de Crash Team Racing Nitro-Fueled">
+                </li>
+                <li>
+                    <h3>Detroit: Become Human</h3>
+                    <p>Narrativa interactiva impresionante, decisiones que realmente cambian la historia, y una reflexión profunda sobre inteligencia artificial y humanidad.</p>
+                    <img class="human" src="fotos/detroit.png" width="300" alt="Escena de investigación en Detroit Become Human">
+                </li>
+            </ul>
+        </section>
+        <section id="botones">
+            <button class="btn btn-primary">Primario</button>
+            <button class="btn btn-secondary">Secundario</button>
+            <button class="btn btn-danger">Peligro</button>
+
+        </section>
+        <hr>
+        <section id="goty">
+            <h2>GOTY</h2>
+            <p>son las siglas en inglés de Game of the Year, que en español significa Juego del Año. Es el premio más importante que se le otorga al mejor videojuego lanzado en una temporada específica.</p>
+            <div class="card"> 
+                <img src="fotos/game.png" width="300" alt="Portada de Clair Obscur Expedition 33 con personajes en un paisaje fantástico sombrío" class="card-img">
+                <div class="card-body">
+                    <h3 class="card-title">Clair Obscur: Expedition 33</h3>
+                    <p class="card-text">es un videojuego de rol (RPG) de fantasía oscura que combina una historia trágica y conmovedora con un sistema de combate único que mezcla la estrategia por turnos y la acción en tiempo real, y por ello fue aclamado como el indiscutible GOTY en The Game Awards 2025</p>
+                    <div class="tooltip-contenedor">
+                        <button class="btn btn-steam">Ir a Steam</button>
+                        <span class="tooltip-texto">Dirigirse a Steam</span>
+                    </div>
+                    <button class="btn btn-epic">Ir a Epic Games store</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="nosotros">
+            <h2 >¿Quieres saber mas?</h2>
+            <h2 >unete a Mundo Gamer</h2>
+            <div class="form-group">
+                <label class="form-label" for="email">Correo electronico</label>
+                <input class="form-input" type="email" id="email" placeholder="mundo-gamer@gmail.com"/>
+                <br>
+                <label class="form-label" for="contra">Contraseña</label>
+                <input class="form-input" type="password" id="contra" placeholder="Ingresa tu contraseña Gamer">
+            </div>
+
+
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+    <p>Andres Camilo Campos Osorio</p>
+    <p>Interfaz Hombre-Maquina</p>
+    <p>&copy; 2026. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
